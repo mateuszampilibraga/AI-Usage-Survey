@@ -12,7 +12,7 @@
           Join us in exploring the impact and potential of AI technology on everyday routines.
         </p>
       </header>
-      <form id="survey-form">
+      <form id="survey-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
         <!--Demographic Information-->
         <div class="form-group">
           <label id="name-label" for="name">Name</label>
@@ -813,5 +813,18 @@
         </div>
       </form>
     </div>
+    
+    <script>
+    // JavaScript to handle form submission
+    document.getElementById('submit').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Perform actions when the button is clicked
+      alert('Form submitted!');
+
+      // You can add further actions here, like sending data to a backend or processing the form
+    });
+  </script>
+      
   </body>
   </hmtl>
