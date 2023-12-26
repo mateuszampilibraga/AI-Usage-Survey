@@ -2,7 +2,7 @@
 This repository hosts a survey form gathering insights on AI usage in everyday life, featuring modern design elements and themed aesthetics.
 # AI Usage Survey Form
 
-![Project Image](link_to_your_project_image)
+([link_to_your_project_image](https://github.com/mateuszampilibraga/AI-Usage-Survey/blob/main/preview.jpg))
 
 ## Description
 
